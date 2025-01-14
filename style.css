@@ -35,7 +35,7 @@ input, textarea {
 @media print {
     /* Pengaturan untuk tampilan saat dicetak */
     @page {
-        margin: 10mm; /* Atur margin untuk print, bisa diganti sesuai kebutuhan */
+        margin: 5px; /* Atur margin untuk print, bisa diganti sesuai kebutuhan */
     }
 
     body {
