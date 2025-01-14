@@ -34,11 +34,17 @@ input, textarea {
 
 @media print {
     /* Pengaturan untuk tampilan saat dicetak */
+    @page {
+        margin: 10mm; /* Atur margin untuk print, bisa diganti sesuai kebutuhan */
+    }
+
     body {
         background: none;
         color: black;
+        margin: 0;
+        padding: 0;
     }
-  
+
     .A4 {
         width: 100%;
         max-width: 210mm;
